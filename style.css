@@ -33,7 +33,7 @@ a {
     font-size: 18px;    
 }
 
-/* intro */
+/* intro section */
 
 .intro {
     display: flex;
@@ -56,6 +56,7 @@ a {
 .subsection {
     font: 18px;
     color: #E5E7EB;
+    margin-top: 8px;
 }
 
 button {
@@ -67,8 +68,42 @@ button {
     width: fit-content;
 }
 
-img {
+.intro-img {
     height: auto;
     width: 450px;
 }
+
+/* info section */
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #67707d;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* quote section */
+
 
